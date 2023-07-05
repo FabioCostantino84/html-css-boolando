@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --boo-header: #ff6900;
+    --boo-footer: #1a1a1a;
+    --boo-discount: #ff0000;
+    --boo-sust: #ff0000;
+    --boo-text-ligth: white;
+    --boo-text-dark: black;
+}
