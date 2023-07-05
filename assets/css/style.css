@@ -19,6 +19,44 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+.hearts:hover {
+    color: var(--boo-discount);
+}
+
+.discount {
+    background-color: var(--boo-discount);
+    color: var(--boo-text-ligth);
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 25px;
+    width: 38px;
+    padding: 5px;
+    position: absolute;
+    bottom: 2.25rem;
+}
+
+.sust {
+    background-color: var(--boo-sust);
+    color: var(--boo-text-ligth);
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 25px;
+    width: 88px;
+    padding: 5px;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 2.25rem;
+}
+
+.brand {
+    color: var(--boo-text-gray);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
 /* end common */
 
 /* utilities */
@@ -34,14 +72,6 @@ header {
     justify-content: center;
     box-shadow: 0 0 0 0.2rem;
     color: #3131313b;
-}
-
-.header_cont {
-    background-color: red;
-    max-width: 1170px;
-    width: 80%;
-    height: 50px;
-    margin: 0.6rem;
 }
 
 .header_cont {
@@ -74,7 +104,6 @@ a {
     color: var(--boo-text-ligth);
     list-style-type: none;
     padding: 0.3rem;
-    font-weight: bold;
 }
 
 .logo_boo {
@@ -107,7 +136,7 @@ a {
     height: 570px;
 }
 
-.hearts{
+.hearts {
     background-color: var(--boo-text-ligth);
     width: 50px;
     height: 50px;
@@ -119,52 +148,51 @@ a {
     align-items: center;
 }
 
-.discount{
-    background-color: var(--boo-discount);
-    color: var(--boo-text-ligth);
-    font-weight: bold;
-    text-align: center;
-    font-size: 0.75rem;
-    height: 25px;
-    width: 38px;
-    padding: 5px;
-    position: absolute;
-    bottom: 2.25rem;
-}
 
-.sust{
-    background-color: var(--boo-sust);
-    color: var(--boo-text-ligth);
-    font-weight: bold;
-    text-align: center;
-    font-size: 0.75rem;
-    height: 25px;
-    width: 88px;
-    padding: 5px;
-    position: absolute;
-    left: 2.5rem;
-    bottom: 2.25rem;
-}
-.brand{
-    color: var(--boo-text-gray);
-    font-size: 0.8rem;
-    font-weight: 700;
-    line-height: 1rem;
-}
-.model{
+.model {
     font-weight: 700;
 }
 
-.price{
+.price {
     color: var(--boo-discount);
     font-size: 0.9rem;
     font-weight: bold;
 }
 
-.old_price{
+.old_price {
     font-size: 0.9rem;
     font-weight: bold;
     text-decoration: line-through;
 }
 
 /* #endregion main */
+
+/* #region footer */
+
+footer {
+    background-color: var(--boo-footer);
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.cont_footer {
+    max-width: 1170px;
+    width: 80%;
+    height: 50px;
+}
+
+.info_footer {
+    width: 85%;
+}
+
+.cont_icon {
+    width: 15%;
+}
+
+h3,
+h4 {
+    color: var(--boo-text-ligth);
+    padding: 4.8px;
+}
+
+/* #endregion footer */
