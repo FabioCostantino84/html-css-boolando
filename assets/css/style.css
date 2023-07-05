@@ -119,4 +119,31 @@ a {
     align-items: center;
 }
 
+.discount{
+    background-color: var(--boo-discount);
+    color: var(--boo-text-ligth);
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 25px;
+    width: 38px;
+    padding: 5px;
+    position: absolute;
+    bottom: 2.25rem;
+}
+
+.sust{
+    background-color: var(--boo-sust);
+    color: var(--boo-text-ligth);
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 25px;
+    width: 88px;
+    padding: 5px;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 2.25rem;
+}
+
 /* #endregion main */
