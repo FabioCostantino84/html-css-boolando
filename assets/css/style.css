@@ -12,6 +12,7 @@
     --boo-sust: #008000;
     --boo-text-ligth: white;
     --boo-text-dark: black;
+    --boo-text-gray: #6b8593;
 }
 
 body {
@@ -91,7 +92,7 @@ a {
     background-color: aqua;
     max-width: 1170px;
     width: 80%;
-    margin: 3rem auto;
+    margin: 6rem auto;
     justify-content: space-around;
 }
 
@@ -144,6 +145,27 @@ a {
     position: absolute;
     left: 2.5rem;
     bottom: 2.25rem;
+}
+.brand{
+    color: var(--boo-text-gray);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.model{
+    font-weight: 700;
+}
+
+.price{
+    color: var(--boo-discount);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.old_price{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: line-through;
 }
 
 /* #endregion main */
