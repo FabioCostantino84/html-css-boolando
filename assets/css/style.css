@@ -89,7 +89,6 @@ a {
 /* #region main */
 
 .container {
-    background-color: aqua;
     max-width: 1170px;
     width: 80%;
     margin: 6rem auto;
