@@ -34,6 +34,7 @@ header {
     box-shadow: 0 0 0 0.2rem;
     color: #3131313b;
 }
+
 .header_cont {
     background-color: red;
     max-width: 1170px;
@@ -41,6 +42,7 @@ header {
     height: 50px;
     margin: 0.6rem;
 }
+
 .header_cont {
     background-color: var(--boo-header);
     max-width: 1170px;
@@ -48,47 +50,73 @@ header {
     padding: 0.75rem;
     margin: 0.6rem;
 }
-.menù, .login {
+
+.menù,
+.login {
     width: 20%;
     display: flex;
     align-items: center;
 }
+
 .menù {
     justify-content: start;
 }
+
 .login {
     justify-content: end;
     flex-direction: row-reverse;
 }
-ul, a {
+
+ul,
+a {
     text-decoration: none;
     color: var(--boo-text-ligth);
     list-style-type: none;
     padding: 0.3rem;
     font-weight: bold;
 }
+
 .logo_boo {
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* #endregion header */
 
 /* #region main */
 
-.container{
+.container {
     background-color: aqua;
     max-width: 1170px;
     width: 80%;
     margin: 3rem auto;
+    justify-content: space-around;
 }
 
-.card{
-    height: 300px;
-    background-color: chartreuse;
-    margin: 1rem;
-    width: calc(100% / 12 * 6);
+.card {
+    width: 365px;
+    height: 570px;
+    position: relative;
 
 }
+
+.img_card {
+    width: 365px;
+    height: 570px;
+}
+
+.hearts{
+    background-color: var(--boo-text-ligth);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    font-size: 2.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
 /* #endregion main */
