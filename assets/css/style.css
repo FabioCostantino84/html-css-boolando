@@ -1,14 +1,77 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --boo-header: #ff6900;
     --boo-footer: #1a1a1a;
     --boo-discount: #ff0000;
     --boo-sust: #ff0000;
     --boo-text-ligth: white;
     --boo-text-dark: black;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.debug header {
+    background-color: #ff6900;
+    height: 70px;
+    justify-content: center;
+}
+
+.debug .header_cont {
+    background-color: red;
+    max-width: 1170px;
+    width: 80%;
+    height: 50px;
+    margin: 0.6rem;
+}
+
+header{
+    background-color: var(--boo-header);
+    justify-content: center;
+    box-shadow: 0 0 0 0.2rem; color: #3131313b;
+}
+
+.header_cont {
+    background-color: var(--boo-header);
+    max-width: 1170px;
+    width: 80%;
+    padding: 0.75rem;
+    margin: 0.6rem;
+}
+
+.menù, .login{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.menù{
+    justify-content: start;
+}
+
+.login{
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+ul, a{
+    text-decoration: none;
+    color: var(--boo-text-ligth);
+    list-style-type: none;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+
+.logo_boo{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
