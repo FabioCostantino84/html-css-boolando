@@ -128,13 +128,24 @@ a {
     width: 365px;
     height: 570px;
     position: relative;
-
+    
 }
 
 .img_card {
     width: 365px;
     height: 570px;
+    position: absolute;
 }
+
+.img_card:hover{
+    display: none;
+}
+
+.img_plus{
+        width: 365px;
+        height: 570px;
+}
+
 
 .hearts {
     background-color: var(--boo-text-ligth);
